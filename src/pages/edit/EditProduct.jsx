@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../../components/Navbar'
+import Form from '../../components/Form'
 
 const EditProduct = () => {
   return (
-    <div><h1>This is a product edit page</h1></div>
+   <>
+   <Navbar/>
+   <Form type='edit'/>
+   </>
   )
 }
 
