@@ -32,4 +32,4 @@ products.map((product)=>{
        </>
     )
 }
-export default HomePage    
+export default HomePage   
